@@ -1,14 +1,18 @@
 <template>
-  <resume />
+  <resumeHeader />
+  <resumeMain />
 </template>
 
 <script>
-import Resume from './components/Resume.vue'
+import resumeHeader from './components/ResumeHeader.vue'
+import resumeMain from './components/ResumeMain.vue'
+
 
 export default {
   name: 'App',
   components: {
-    Resume
+    resumeHeader,
+    resumeMain
   }
 }
 </script>
