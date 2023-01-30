@@ -3,7 +3,7 @@
     <div class="title">Project Highlights:</div>
     <div v-for="(item, index) in list" :key="index">
       <span class="projectName">{{ item.name }}: </span>
-      <span class="projectLink">{{ item.url }}</span>
+      <a class="projectLink" :href="item.url">{{ item.url }}</a>
     </div>
   </div>
 </template>
