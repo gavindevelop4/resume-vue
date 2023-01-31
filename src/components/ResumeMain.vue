@@ -8,7 +8,7 @@
         companyHref="https://universeaction.com/"
         location="Hong Kong"
         startDate="June 2022"
-        endDate="Present"
+        endDate="Febuary 2023"
         :noMarginBottom="true"
       />
 
