@@ -29,7 +29,7 @@
 
         <div class="item">
           <font-awesome-icon icon="fa-solid fa-square-phone" class="icon"/>
-          <div class="description"><a href="+1 647-875-8306">+1 647-875-8306</a></div>
+          <div class="description">+1 647-875-8306</div>
         </div>
 
         <div class="item">
