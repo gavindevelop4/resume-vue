@@ -18,8 +18,9 @@ export default {
 
 <style>
 .skills {
-  font-size: 9px;
+  font-size: 12px;
   font-family: "Source Code Pro";
-  color: grey;
+  color: #717171;
+  font-weight: 500;
 }
 </style>

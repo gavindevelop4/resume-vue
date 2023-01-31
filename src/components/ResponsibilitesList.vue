@@ -20,7 +20,8 @@ export default {
 
 <style>
 .responsibilitesList {
-  color: grey;
-  font-size: 9px;
+  color: #717171;
+  font-size: 12px;
+  line-height: 1.8;
 }
 </style>

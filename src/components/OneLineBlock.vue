@@ -23,12 +23,13 @@ export default {
 
 <style lang="scss" scoped>
 .oneLineBlock {
-  font-size: 12px;
+  font-size: 16px;
   
   .skills {
-    font-size: 9px;
-    color: grey;
+    font-size: 12px;
+    color: #717171;
     font-family: "Source Code Pro";
+    margin-left: 5px;
   }
 }
 </style>

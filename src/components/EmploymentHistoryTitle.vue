@@ -41,15 +41,17 @@ export default {
 
 <style lang="scss" scoped>
 .employmentHistoryTitle {
-  font-size: 12px;
+  font-size: 16px;
+  margin-bottom: 5px;
 
   .company {
-    color: blue;
+    color: #007BFF;
   }
 
   .date {
-    color: grey;
+    color: #717171;
     margin-left: 5px;
+    font-size: 12px;
   }
 }
 </style>

@@ -22,17 +22,19 @@ export default {
 
 <style lang="scss" scoped>
 .projectHighlights {
-  font-size: 8px;
+  font-size: 10.5px;
+  line-height: 1.8;
 
   .title {
     text-decoration: bold;
   }
   
   .projectName {
-    color: grey;
+    color: #717171;
   }
   .projectLink {
-    color: blue;
+    color: #007BFF;
+    text-decoration: none;
   }
 }
 </style>

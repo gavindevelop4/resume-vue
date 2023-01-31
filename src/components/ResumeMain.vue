@@ -152,6 +152,6 @@ export default {
 
 <style lang="scss" scoped>
 .employmentHistory {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 </style>
