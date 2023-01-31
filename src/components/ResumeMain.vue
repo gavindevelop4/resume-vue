@@ -8,6 +8,7 @@
         location="Hong Kong"
         startDate="June 2022"
         endDate="Present"
+        :noMarginBottom="true"
       />
 
       <employmentHistoryTitle

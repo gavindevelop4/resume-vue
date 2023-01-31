@@ -1,5 +1,5 @@
 <template>
-  <div class="employmentHistoryTitle">
+  <div :class="['employmentHistoryTitle', noMarginBottom && 'noMargin']">
     <span class="title">{{ title }}</span>,
     <span class="company">{{ company }}</span><span v-if="company !== ''">, </span>
     <span class="location">{{ location }}</span>
@@ -34,6 +34,10 @@ export default {
     endDate: {
       type: String,
       default: 'current'
+    },
+    noMarginBottom: {
+      type: Boolean,
+      default: false
     }
   }
 }
@@ -43,6 +47,10 @@ export default {
 .employmentHistoryTitle {
   font-size: 16px;
   margin-bottom: 5px;
+
+  &.noMargin {
+    margin-bottom: 0;
+  }
 
   .company {
     color: #007BFF;
