@@ -5,7 +5,7 @@
       <div class="description">Eligible holder of Open Work Permit</div>
       <div class="description">Available in April</div>
       <div class="education">
-        <!-- <img class="icon" src="./images/Picture 1.png">  -->
+        <font-awesome-icon icon="fa-solid fa-graduation-cap" class="icon" />
         <div>B.Sc., Statistics, The Chinese University of Hong Kong, 2015-2019</div> 
       </div>
     </div>
@@ -13,6 +13,7 @@
 </template>
 
 <script>
+
 export default {
   name: "resumeHeader",
 }
@@ -45,5 +46,9 @@ export default {
     align-items: center;
     font-size: 10.5px;
     margin-top: 16px;
+
+    .icon {
+      margin-right: 5px;
+    }
   }
 </style>
