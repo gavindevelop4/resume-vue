@@ -5,6 +5,7 @@
       <employmentHistoryTitle
         title='Senior Frontend Developer (Team Lead)'
         company="Everway Technology Limited"
+        companyHref="https://universeaction.com/"
         location="Hong Kong"
         startDate="June 2022"
         endDate="Present"
@@ -33,6 +34,7 @@
       <employmentHistoryTitle
         title='Web Programmer'
         company="OSW Group Limited"
+        companyHref="https://www.osw.com.hk/"
         location="Hong Kong"
         startDate="Aug 2020"
         endDate="Apr 2021"
@@ -54,6 +56,7 @@
       <employmentHistoryTitle
         title='Marketing Assistant (Data Analyst)'
         company="S.F. Express"
+        companyHref="https://htm.sf-express.com/hk/en/"
         location="Hong Kong"
         startDate="Jul 2019"
         endDate="Apr 2020"
