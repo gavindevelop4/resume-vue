@@ -55,7 +55,7 @@ export default {
     margin-bottom: 16px;
 
     .left {
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid #888888;
     }
   }
 
