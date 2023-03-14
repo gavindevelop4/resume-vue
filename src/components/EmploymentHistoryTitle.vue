@@ -1,8 +1,8 @@
 <template>
   <div :class="['employmentHistoryTitle', noMarginBottom && 'noMargin']">
-    <span class="title">{{ title }}</span>,
+    <span class="title">{{ title }}</span><span v-if="!noLocation">, </span>
     <span class="company"><a :href="companyHref">{{ company }}</a></span><span v-if="company !== ''">, </span>
-    <span class="location">{{ location }}</span>
+    <span class="location" v-if="!noLocation">{{ location }}</span>
     <span class="date"> {{ startDate }} - {{ endDate }}</span>
   </div>
 </template>
@@ -36,6 +36,10 @@ export default {
       default: 'current'
     },
     noMarginBottom: {
+      type: Boolean,
+      default: false
+    },
+    noLocation: {
       type: Boolean,
       default: false
     }

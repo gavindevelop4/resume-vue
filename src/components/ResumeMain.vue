@@ -16,6 +16,7 @@
         title='Frontend Developer'
         startDate="May 2021"
         endDate="May 2022"
+        :noLocation="true"
       />
 
       <skills skills="TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/SCSS/Jenkins" />
@@ -68,7 +69,7 @@
     <div class="employmentHistory">
       <one-line-block
         title="Other Skills"
-        skills="TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB"
+        skills="TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)"
       />
     </div>
     

@@ -14,12 +14,12 @@
       <div class="contact">
         <div class="item">
           <font-awesome-icon icon="fa-brands fa-linkedin" class="icon"/>
-          <div class="description"><a href="linkedin.com/in/gavinchandevelop">linkedin.com/in/gavinchandevelop</a></div>
+          <div class="description"><a href="https://linkedin.com/in/gavinchandevelop">linkedin.com/in/gavinchandevelop</a></div>
         </div>
 
         <div class="item">
           <font-awesome-icon icon="fa-brands fa-github" class="icon"/>
-          <div class="description"><a href="github.com/gavindevelop4">github.com/gavindevelop4</a></div>
+          <div class="description"><a href="https://github.com/gavindevelop4">github.com/gavindevelop4</a></div>
         </div>
 
         <div class="item">
@@ -29,7 +29,7 @@
 
         <div class="item">
           <font-awesome-icon icon="fa-solid fa-square-phone" class="icon"/>
-          <div class="description">+1 647-875-8306</div>
+          <div class="description">+1 437-557-3979</div>
         </div>
 
         <div class="item">
