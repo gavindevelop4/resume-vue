@@ -1,7 +1,7 @@
 <template>
   <div class="top-container">
     <div class="left">
-      <div class="name">Gavin Chan</div>
+      <div class="name">Hoi Yui Chan</div>
       <div class="description">Eligible holder of Open Work Permit</div>
       <div class="description">Available in April</div>
       <div class="education">
@@ -52,7 +52,7 @@ export default {
   .top-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 
     .left {
       border-bottom: 1px solid #888888;
@@ -61,7 +61,7 @@ export default {
 
   .name {
     font-size: 50.5px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }
 
   .description {
@@ -73,8 +73,8 @@ export default {
     justify-content: flex-start;
     align-items: center;
     font-size: 10.5px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 
     .icon {
       width: 16px;

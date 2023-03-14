@@ -1,7 +1,7 @@
 <template>
   <div class="oneLineBlock">
-    <span class="title">{{ title }}</span>
-    <span class="skills">{{ skills }}</span>
+    <div class="title">{{ title }}</div>
+    <!-- <div class="skills">{{ skills }}</div> -->
   </div>
 </template>
 
@@ -23,7 +23,8 @@ export default {
 
 <style lang="scss" scoped>
 .oneLineBlock {
-  font-size: 16px;
+  font-size: 20px;
+  margin-bottom: 8px;
   
   .skills {
     font-size: 12px;

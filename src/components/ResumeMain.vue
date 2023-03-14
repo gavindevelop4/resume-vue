@@ -2,27 +2,33 @@
   <div class="main">
     <!-- EVERWAY -->
     <div class="employmentHistory">
-      <employmentHistoryTitle
+      <company-name
+        title="Everway Technology Limited"
+        link="https://universeaction.com/"
+      />
+
+      <job-title
         title='Senior Frontend Developer (Team Lead)'
-        company="Everway Technology Limited"
-        companyHref="https://universeaction.com/"
-        location="Hong Kong"
         startDate="June 2022"
-        endDate="Present"
-        :noMarginBottom="true"
+        endDate="Feb 2023"
       />
 
-      <employmentHistoryTitle
-        title='Frontend Developer'
-        startDate="May 2021"
-        endDate="May 2022"
-        :noLocation="true"
-      />
-
-      <skills skills="TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/SCSS/Jenkins" />
+      <skills skills="TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/SCSS/Jenkins/Git" />
 
       <responsibilites-list
         :list="everwayResList"
+      />
+
+      <job-title
+        title='Frontend Developer'
+        startDate="May 2021"
+        endDate="May 2022"
+      />
+
+      <skills skills="TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/SCSS/Git" />
+
+      <responsibilites-list
+        :list="everwayResList2"
       />
 
       <project-hightlights
@@ -32,16 +38,18 @@
 
     <!-- OSW -->
     <div class="employmentHistory">
-      <employmentHistoryTitle
+      <company-name
+        title="OSW Group Limited"
+        link="https://www.osw.com.hk/"
+      />
+
+      <job-title
         title='Web Programmer'
-        company="OSW Group Limited"
-        companyHref="https://www.osw.com.hk/"
-        location="Hong Kong"
         startDate="Aug 2020"
         endDate="Apr 2021"
       />
 
-      <skills skills="PHP/JavaScript(jQuery)/SCSS/AWS/Photoshop/AI" />
+      <skills skills="PHP/JavaScript(jQuery)/SCSS/AWS/Photoshop/AI/Git" />
 
       <responsibilites-list
         :list="oswResList"
@@ -54,14 +62,17 @@
 
     <!-- SF -->
     <div class="employmentHistory">
-      <employmentHistoryTitle
+      <company-name
+        title="S.F. Express"
+        link="https://htm.sf-express.com/hk/en/"
+      />
+
+      <job-title
         title='Marketing Assistant (Data Analyst)'
-        company="S.F. Express"
-        companyHref="https://htm.sf-express.com/hk/en/"
-        location="Hong Kong"
         startDate="Jul 2019"
         endDate="Apr 2020"
       />
+      
 
       <skills skills="Excel/MySQL" />
     </div>
@@ -71,6 +82,8 @@
         title="Other Skills"
         skills="TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)"
       />
+      <skills skills="TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)" />
+
     </div>
     
     <div class="employmentHistory">
@@ -78,40 +91,50 @@
         title="Language"
         skills="English(Fluent)/Cantonese(Native)/Mandarin(Fluent)"
       />
+      <skills skills="English(Fluent)/Cantonese(Native)/Mandarin(Fluent)"/>
     </div>
 
   </div>
 </template>
 
 <script>
-import employmentHistoryTitle from '@/components/EmploymentHistoryTitle.vue'
+// import employmentHistoryTitle from '@/components/EmploymentHistoryTitle.vue'
 import skills from '@/components/Skills.vue'
 import ResponsibilitesList from './ResponsibilitesList.vue'
 import projectHightlights from '@/components/ProjectHighlights.vue'
 import oneLineBlock from '@/components/OneLineBlock.vue'
+import companyName from '@/components/CompanyName.vue'
+import jobTitle from '@/components/JobTitle.vue'
 
 export default {
   name: "resumeMain",
   components: {
-    employmentHistoryTitle,
+    // employmentHistoryTitle,
     skills,
     ResponsibilitesList,
     projectHightlights,
-    oneLineBlock
+    oneLineBlock,
+    companyName,
+    jobTitle
   },
   computed: {
     // everway
     everwayResList() {
       return [
-      "Managed teams of 5 developers and monitored projects to ensure process with Jira",
-      "Deployed release activities for 5+ projects",
-      `Communicated with Product Managers, UI/UX designers to adjust design in order to enhance development process and user
-        experience`,
-"Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
-"Published apps to Google Play Store and App Store",
-"Built 2+ official websites for the company with SSG",
-"Developed 2+ admin panels web app for international SMS platform and smart voice system of the company",
-    ]
+        "Managed teams of 5 developers and monitored projects with Jira",
+        "Perform code reviews that guarantee code quality",
+        "Deployed release activities for 5+ projects",
+        "Communicated with Product Managers, UI/UX designers to optimize platforms",
+        "Developed realtime voice call feature with WebRTC"
+      ]
+    },
+    everwayResList2() {
+      return [
+        "Developed 2+ admin panels style web app for international SMS platform and smart voice system of the company",
+        "Built 2+ official websites for the company with SSG",
+        "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
+        "Published apps to Google Play Store and App Store",
+      ]
     },
     everwayProjects() {
       return [
@@ -137,6 +160,7 @@ export default {
         "Installed SSL certificates for websites",
         "Used git for version control of websites",
         "Communicated with UI/UX designers to optimize design with CSS",
+        "Developed 3D animations with Three.js"
       ]
     },
     oswProjects() {
@@ -157,6 +181,6 @@ export default {
 
 <style lang="scss" scoped>
 .employmentHistory {
-  margin-bottom: 16px;
+  margin-bottom: 5px;
 }
 </style>

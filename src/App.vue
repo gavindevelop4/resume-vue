@@ -62,9 +62,9 @@ body {
         }
     }
     .subpage {
-        padding: 1.5cm;
+        padding: 1.2cm 1.5cm;
         /* border: 5px red solid; */
-        height: 257mm;
+        height: 297mm;
         /* outline: 2cm #FFEAEA solid; */
     }
 </style>

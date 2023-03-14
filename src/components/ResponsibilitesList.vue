@@ -18,10 +18,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .responsibilitesList {
   color: #717171;
   font-size: 12px;
   line-height: 1.8;
+
+  ul {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+  }
 }
 </style>
