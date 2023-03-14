@@ -29,7 +29,7 @@
 
         <div class="item">
           <font-awesome-icon icon="fa-solid fa-square-phone" class="icon"/>
-          <div class="description">+1 437-557-3979</div>
+          <div class="description">437-557-3979</div>
         </div>
 
         <div class="item">
