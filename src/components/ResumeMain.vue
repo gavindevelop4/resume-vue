@@ -122,7 +122,7 @@ export default {
     everwayResList() {
       return [
         "Managed teams of 5 developers and monitored projects with Jira",
-        "Perform code reviews that guarantee code quality",
+        "Performed code reviews that guarantee code quality",
         "Deployed release activities for 5+ projects",
         "Communicated with Product Managers, UI/UX designers to optimize platforms",
         "Developed realtime voice call feature with WebRTC"
