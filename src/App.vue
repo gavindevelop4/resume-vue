@@ -22,6 +22,9 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
 html {
   width: 210mm;
   height: 297mm;  

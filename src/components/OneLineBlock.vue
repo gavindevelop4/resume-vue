@@ -22,6 +22,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 .oneLineBlock {
   font-size: 20px;
   margin-bottom: 8px;

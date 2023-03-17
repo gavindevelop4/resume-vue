@@ -17,6 +17,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 .skills {
   font-size: 12px;
   font-family: "Source Code Pro";
