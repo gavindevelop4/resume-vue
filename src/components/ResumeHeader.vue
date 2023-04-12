@@ -1,7 +1,7 @@
 <template>
   <div class="top-container">
     <div class="left">
-      <div class="name">Hoi Yui Chan</div>
+      <div class="name">Gavin Chan</div>
       <div class="description">Eligible holder of Open Work Permit</div>
       <div class="description">Immediately Available</div>
       <div class="education">
