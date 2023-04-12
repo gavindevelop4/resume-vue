@@ -3,7 +3,7 @@
     <div class="left">
       <div class="name">Hoi Yui Chan</div>
       <div class="description">Eligible holder of Open Work Permit</div>
-      <div class="description">Available in April</div>
+      <div class="description">Immediately Available</div>
       <div class="education">
         <font-awesome-icon icon="fa-solid fa-graduation-cap" class="icon" />
         <div>B.Sc., Statistics, The Chinese University of Hong Kong, 2015-2019</div> 
