@@ -1,7 +1,6 @@
 <template>
   <div class="companyName">
     <span class="title"><a :href="link">{{ title }}</a></span>
-    <span class="location">{{ location }}</span>
   </div>
 </template>
 
@@ -16,11 +15,7 @@ export default {
     link: {
       type: String,
       default: ''
-    },
-    location: {
-      type: String,
-      default: 'Hong Kong'
-    },
+    }
   }
 }
 </script>
