@@ -82,7 +82,7 @@
         title="Other Skills"
         skills="TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)"
       />
-      <skills skills="TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)" />
+      <skills skills="TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)/Linux" />
 
     </div>
     
@@ -124,16 +124,18 @@ export default {
         "Managed teams of 5 developers and monitored projects with Jira",
         "Performed code reviews that guarantee code quality",
         "Deployed release activities for 5+ projects",
-        "Communicated with Product Managers, UI/UX designers to optimize platforms",
+        // "Communicated with Product Managers, UI/UX designers to optimize platforms",
+        "Collaborated with Product Managers, UI/UX designers and Backend developers to implement and improve features",
+        "Worked with Backend developers on RESTful API designs",
         "Developed realtime voice call feature with WebRTC"
       ]
     },
     everwayResList2() {
       return [
-        "Developed 2+ admin panels style web app for international SMS platform and smart voice system of the company",
-        "Built 2+ official websites for the company with SSG",
+        "Developed 5+ single page applications for SaaS applications of the company",
+        "Built 3+ static pages for the company with SSG",
         "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
-        "Published apps to Google Play Store and App Store",
+        "Published mobile applications to Google Play Store and App Store",
       ]
     },
     everwayProjects() {
@@ -159,7 +161,7 @@ export default {
         "Configured servers with cPanel, WHM and also SSH",
         "Installed SSL certificates for websites",
         "Used git for version control of websites",
-        "Communicated with UI/UX designers to optimize design with CSS",
+        "Collaborated with UI/UX designers to optimize design with CSS",
         "Developed 3D animations with Three.js"
       ]
     },
