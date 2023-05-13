@@ -32,5 +32,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ```
 npm run build
+```
+
+Push the changes to main
+
+```
 git subtree push --prefix dist origin github-pages
 ```
