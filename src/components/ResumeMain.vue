@@ -13,7 +13,7 @@
         endDate="Feb 2023"
       />
 
-      <skills skills="TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/SCSS/Jenkins/Git" />
+      <skills skills="TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/SCSS/Jenkins/Git" />
 
       <responsibilites-list
         :list="everwayResList"
