@@ -44,7 +44,7 @@
 <script>
 
 export default {
-  name: "resumeHeader",
+  name: "appHeader",
 }
 </script>
 

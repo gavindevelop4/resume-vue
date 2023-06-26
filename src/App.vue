@@ -1,22 +1,22 @@
 <template>
   <div class="page">
     <div class="subpage">
-      <resumeHeader />
-      <resumeMain />
+      <appHeader />
+      <appMain />
     </div>
   </div>
 </template>
 
 <script>
-import resumeHeader from './components/ResumeHeader.vue'
-import resumeMain from './components/ResumeMain.vue'
+import appHeader from '@/layouts/AppHeader.vue'
+import appMain from '@/layouts/AppMain.vue'
 
 
 export default {
   name: 'App',
   components: {
-    resumeHeader,
-    resumeMain
+    appHeader,
+    appMain
   }
 }
 </script>
