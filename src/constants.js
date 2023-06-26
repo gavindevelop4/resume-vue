@@ -13,7 +13,7 @@ const jobs = [
           "Managed teams of 5 developers and monitored projects with Jira to ensure sprints completed before deadline",
           "Performed code reviews to improve code quality and increase maintainability",
           "Deployed release activities for 5+ projects",
-          "Collaborated with Product Managers, UI/UX designers and Backend developers to implement and improve features",
+          "Collaborated with Product Managers, UI/UX designers and Backend developers to implement and improve features which increase customer satisfaction",
           "Worked with Backend developers on RESTful API designs to improve performance",
           // "Developed realtime voice call feature with WebRTC"
         ]
