@@ -8,15 +8,13 @@ const jobs = [
         title: "Senior Frontend Developer (Team Lead)",
         startDate: "June 2022",
         endDate: "Feb 2023",
-        skills: "TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/SCSS/Jenkins/Git",
+        skills: "TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/SCSS/Jenkins/Git/WebRTC",
         description: [
-          "Managed teams of 5 developers and monitored projects with Jira",
-          "Performed code reviews that guarantee code quality",
+          "Managed teams of 5 developers and monitored projects with Jira to ensure sprints completed before deadline",
+          "Performed code reviews to improve code quality and increase maintainability",
           "Deployed release activities for 5+ projects",
-          // "Communicated with Product Managers, UI/UX designers to optimize platforms",
           "Collaborated with Product Managers, UI/UX designers and Backend developers to implement and improve features",
-          "Worked with Backend developers on RESTful API designs",
-          "Developed realtime voice call feature with WebRTC"
+          "Worked with Backend developers on RESTful API designs to improve performance"
         ]
       },
       {
@@ -26,7 +24,7 @@ const jobs = [
         skills: "TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/SCSS/Git",
         description: [
           "Developed 5+ single page applications for SaaS applications of the company",
-          "Built 3+ static pages for the company with SSG",
+          "Built 3+ static pages for the company with SSG to improve SEO",
           "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
           "Published mobile applications to Google Play Store and App Store",
         ],
