@@ -1,10 +1,14 @@
-# resume-vue
+# Gavin Chan's Resume by using Vue.js
 
-## Project setup
+## Production
 
-```
-npm install
-```
+https://gavindevelop4.github.io/resume-vue/
+
+## Documentation
+
+### Perferred Node Version
+
+v16.3.0
 
 ### Compiles and hot-reloads for development
 
@@ -17,16 +21,6 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Deploy to github pages
 
