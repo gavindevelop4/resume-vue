@@ -6,12 +6,13 @@
     />
 
     <position-item
-      :key="index"
       v-for="(position, index) in job.position"
+      :key="index"
       :position="position"
     />
 
     <project-hightlights
+      v-if="job.projects"
       :list="job.projects"
     />
   </div>

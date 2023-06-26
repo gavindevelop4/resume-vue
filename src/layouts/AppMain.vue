@@ -1,8 +1,8 @@
 <template> 
   <div class="main">
     <job-item 
-      :key="index"
       v-for="(job, index) in jobList"
+      :key="index"
       :job="job"
     />
     
