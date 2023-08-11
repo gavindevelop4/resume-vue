@@ -6,7 +6,7 @@ const jobs = [
     position: [
       {
         title: "Senior Frontend Developer (Team Lead)",
-        startDate: "June 2022",
+        startDate: "Jun 2022",
         endDate: "Feb 2023",
         skills: "TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/SCSS/Jenkins/Git/WebRTC",
         description: [
