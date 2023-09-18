@@ -63,9 +63,9 @@ const roleList = [
     skills: "PHP/JavaScript(jQuery)/SCSS/AWS/Photoshop/AI/Git",
     description: [
       "Built PHP websites including CMS with HTML, CSS and jQuery",
-      "Configured servers with cPanel, WHM and also SSH",
-      "Installed SSL certificates for websites",
-      "Used git for version control of websites",
+      "Configured servers including installing SSL certificates with cPanel, WHM and also SSH",
+      // "Installed SSL certificates for websites",
+      // "Used git for version control of websites",
       "Collaborated with UI/UX designers to optimize design with CSS",
       "Developed 3D animations with Three.js"
     ],
