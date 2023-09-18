@@ -36,7 +36,7 @@
 import skills from '@/components/Skills.vue'
 import oneLineBlock from '@/components/OneLineBlock.vue'
 import jobs from '@/constants'
-import { roleList } from '@/constants'
+import roleList from '@/constants'
 // import JobItem from '@/components/JobItem.vue'
 import RoleItem from '@/components/RoleItem.vue'
 

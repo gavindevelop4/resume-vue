@@ -1,8 +1,10 @@
 <template>
   <div class="jobTitle">
-    <span class="title">{{ title }},</span>
-    <span class="company"><a :href="link">{{ company }}</a>,</span>
-    <span class="date"> {{ startDate }} - {{ endDate }}</span>
+    <div class="title">{{ title }}</div>
+    <div>
+      <span class="company"><a :href="link">{{ company }}</a>,</span>
+      <span class="date"> {{ startDate }} - {{ endDate }}</span>
+    </div>
   </div>
 </template>
 
@@ -43,11 +45,12 @@ export default {
   .title {
     font-size: 20px;
     color: black;
+    margin-bottom: 5px;
   }
 
   .company {
     color: #007BFF;
-    margin-left: 5px;
+    // margin-left: 5px;
     // font-weight: 700;
 
     a {
