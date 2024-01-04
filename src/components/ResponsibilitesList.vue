@@ -22,7 +22,7 @@ export default {
 .responsibilitesList {
   color: #717171;
   font-size: 12px;
-  line-height: 1.8;
+  line-height: 1.6;
 
   ul {
     margin-block-start: 5px;

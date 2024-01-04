@@ -1,14 +1,26 @@
 const roleList = [
   {
+    title: "IT Support Analyst",
+    company: "Sarku Japan",
+    website: "https://www.sarkujapan.com/",
+    startDate: "Dec 2023",
+    endDate: "Current",
+    description: [
+      "Diagnosed and resolved POS system software, hardware, and connectivity issues",
+      "Repaired emergency issues with remote support til midnight to avoid potential loss of revenue"
+    ]
+  },
+  {
     title: "Electronics Technician",
     company: "FutureTel Service Centre",
     website: "https://www.futuretel.ca",
     startDate: "Aug 2023",
-    endDate: "Current",
+    endDate: "Dec 2023",
     description: [
-      "Identified issues accurately of 5+ devices by testing software everyday",
-      "Reloaded OS (Android) of 3+ barcode scanners everyday",
-      "Replaced parts including PCB, camera modules of the barcode scanners and label printers"
+      // "Repaired 5+ android devices everyday",
+      // "Identified issues accurately of 5+ devices by testing software everyday",
+      // "Reloaded OS (Android) of 3+ barcode scanners everyday",
+      // "Replaced parts including PCB, camera modules of the barcode scanners and label printers"
     ]
   },
   {
