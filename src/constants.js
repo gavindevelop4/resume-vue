@@ -45,7 +45,7 @@ const roleList = [
     website: "https://universeaction.com/",
     startDate: "May 2021",
     endDate: "May 2022",
-    skills: "TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/SCSS/Git",
+    skills: "TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/Bootstrap/SCSS/Git",
     description: [
       "Developed 5+ single page applications for SaaS applications of the company",
       "Built 3+ static pages for the company with SSG to improve SEO",
@@ -72,14 +72,16 @@ const roleList = [
     website: "https://www.osw.com.hk/",
     startDate: "Aug 2020",
     endDate: "Apr 2021",
-    skills: "PHP/JavaScript(jQuery)/SCSS/AWS/Photoshop/AI/Git",
+    skills: "PHP/JavaScript(jQuery)/SCSS/AWS EC2/Photoshop/Illustrator/Git",
     description: [
       "Built PHP websites including CMS with HTML, CSS and jQuery",
-      "Configured servers including installing SSL certificates with cPanel, WHM and also SSH",
+      "Configured 2+ AWS EC2 by SSH",
       // "Installed SSL certificates for websites",
       // "Used git for version control of websites",
-      "Collaborated with UI/UX designers to optimize design with CSS",
-      "Developed 3D animations with Three.js"
+      // "Collaborated with UI/UX designers to optimize design with CSS",
+      "Collabarated with UI/UX designers to build 3D animtaions with CSS and Three.js",
+      // "Developed 3D animations with Three.js",
+      "Built a e-commerce website with WooCommerce"
     ],
     projects: [
       {

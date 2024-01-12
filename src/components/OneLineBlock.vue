@@ -1,7 +1,6 @@
 <template>
   <div class="oneLineBlock">
     <div class="title">{{ title }}</div>
-    <!-- <div class="skills">{{ skills }}</div> -->
   </div>
 </template>
 
@@ -13,10 +12,6 @@ export default {
       type: String,
       default: ''
     },
-    skills: {
-      type: String,
-      default: ''
-    }
   }
 }
 </script>

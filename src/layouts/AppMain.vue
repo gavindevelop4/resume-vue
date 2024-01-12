@@ -15,9 +15,8 @@
     <div class="employmentHistory">
       <one-line-block
         title="Other Skills"
-        skills="TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)"
       />
-      <skills skills="TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)/Linux/GraphQL" />
+      <skills :skills="`TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)/\nLinux/GraphQL/Docker`" />
 
     </div>
     
