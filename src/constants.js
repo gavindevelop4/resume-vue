@@ -6,8 +6,9 @@ const roleList = [
     startDate: "Dec 2023",
     endDate: "Current",
     description: [
-      "Diagnosed and resolved POS system software, hardware, and connectivity issues",
-      "Repaired emergency issues with remote support til midnight to avoid potential loss of revenue"
+      "Diagnosed and resolved UniWell Unix based POS system software, hardware, and connectivity issues",
+      "Modified XML files of the POS for more than 100 stores by Python",
+      // "Repaired emergency issues with remote support til midnight to avoid potential loss of revenue"
     ]
   },
   {

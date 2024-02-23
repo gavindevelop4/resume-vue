@@ -16,7 +16,7 @@
       <one-line-block
         title="Other Skills"
       />
-      <skills :skills="`TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)/\nLinux/GraphQL/Docker`" />
+      <skills :skills="`TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)/\nLinux/GraphQL/Docker/Python`" />
 
     </div>
     
