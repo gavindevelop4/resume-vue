@@ -21,7 +21,9 @@ export default {
 
 .oneLineBlock {
   font-size: 20px;
-  margin-bottom: 8px;
+  // margin-bottom: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   
   .skills {
     font-size: 12px;

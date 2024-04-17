@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="role-item">
     <role-title
       :title="role.title"
       :company="role.company"
@@ -45,4 +45,7 @@ export default {
 </script>
 
 <style>
+.role-item {
+  margin-top: 2px;
+}
 </style>

@@ -39,13 +39,13 @@ export default {
 <style lang="scss">
 .jobTitle {
   font-size: 16px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 2px;
+  // margin-top: 2px;
 
   .title {
     font-size: 20px;
     color: black;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
   }
 
   .company {

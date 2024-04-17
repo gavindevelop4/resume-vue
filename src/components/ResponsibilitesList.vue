@@ -25,8 +25,8 @@ export default {
   line-height: 1.6;
 
   ul {
-    margin-block-start: 5px;
-    margin-block-end: 5px;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
   }
 }
 </style>
