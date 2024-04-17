@@ -5,7 +5,7 @@ const roleList = [
     website: "https://www.sarkujapan.com/",
     startDate: "Dec 2023",
     endDate: "Current",
-    skills: "TypeScript(React, Redux)/JavaScript(React, Redux)/Java (Spring Boot)/Python/SQL",
+    skills: "TypeScript(React, Redux)/JavaScript(React, Redux)/Java(Spring Boot)/Python/SQL",
     description: [
       "Diagnosed and resolved UniWell Unix based POS system software, hardware, and connectivity issues",
       "Modified XML files of the POS for more than 100 stores by Python",
