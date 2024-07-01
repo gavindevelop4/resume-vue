@@ -23,7 +23,7 @@ export default {
 <style lang="scss" scoped>
 .projectHighlights {
   font-size: 12px;
-  line-height: 1.8;
+  line-height: 1.6;
 
   .title {
     text-decoration: bold;

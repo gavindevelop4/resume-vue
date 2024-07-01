@@ -51,9 +51,10 @@ const roleList = [
     description: [
       "Migrated the development process from Scrum to Agile, resulting in a 20% increase in Sprint completion rate",
       "Conducted code reviews for 5 team members and created detail documentations, enhancing maintainability and reducing development time by 20%",
-      "Deployed release activities for over 5 projects and published over 2 mobile appliactions to Google Play Store and Apple App Store",
+      "Deployed release activities for over 5 projects and published over 2 mobile appliactions to Google Play and App Store",
       "Collaborated with product managers, UI/UX designers, and backend developers to implement and improve features, increasing customer satisfaction by 15% and transforming the application into a SaaS platform to attract more customers",
       "Worked with backend developers on RESTful API designs to improve performance",
+      "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
     ],
     projects: [
       {
@@ -64,9 +65,13 @@ const roleList = [
         name: "AboSend (SMS Platform Web Application)",
         url: "www.abosend.com",
       },{
-        name: "AboTalk (Smart Voice System Web Application): ",
+        name: "AboTalk (Smart Voice System Web Application)",
         url: "www.abotalk.com",
       },
+      {
+        name: "E-PowerSpot (Static Page with great SEO)",
+        url: "www.epowerspot.com"
+      }
     ]
   },
   // {

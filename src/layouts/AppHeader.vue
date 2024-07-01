@@ -88,7 +88,7 @@ export default {
   justify-content: flex-start;
   align-items: center;
   font-size: 10.5px;
-  margin-top: 16px;
+  margin-top: 8px;
   margin-bottom: 8px;
 
   .icon {
