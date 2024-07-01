@@ -26,7 +26,7 @@ export default {
 
   ul {
     margin-block-start: 2px;
-    margin-block-end: 2px;
+    margin-block-end: 6px;
   }
 }
 </style>

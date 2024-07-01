@@ -1,23 +1,13 @@
 <template>
   <div class="role-item">
-    <role-title
-      :title="role.title"
-      :company="role.company"
-      :link="role.website"
-      :startDate="role.startDate"
-      :endDate="role.endDate"
-    />
+    <role-title :title="role.title" :company="role.company" :link="role.website" :startDate="role.startDate"
+      :endDate="role.endDate" />
 
     <skills :skills="role.skills" />
 
-    <responsibilites-list
-      :list="role.description"
-    />
+    <responsibilites-list :list="role.description" />
 
-    <project-highlights
-      v-if="role.projects"
-      :list="role.projects"
-    />
+    <project-highlights v-if="role.projects" :list="role.projects" />
   </div>
 </template>
 
@@ -34,11 +24,11 @@ export default {
     ResponsibilitesList,
     RoleTitle,
     ProjectHighlights
-},
+  },
   props: {
     role: {
       type: Object,
-      default: () => {}
+      default: () => { }
     }
   }
 }
@@ -46,6 +36,6 @@ export default {
 
 <style>
 .role-item {
-  margin-top: 2px;
+  margin-top: 8px;
 }
 </style>

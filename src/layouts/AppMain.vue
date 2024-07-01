@@ -1,31 +1,23 @@
-<template> 
+<template>
   <div class="main">
-    <role-item 
-      v-for="(role, index) in roleList"
-      :key="index"
-      :role="role"
-    />
-    
+    <role-item v-for="(role, index) in roleList" :key="index" :role="role" />
+
     <!-- <job-item 
       v-for="(job, index) in jobList"
       :key="index"
       :job="job"
     /> -->
-    
+
     <div class="employmentHistory">
-      <one-line-block
-        title="Other Skills"
-      />
-      <skills :skills="`TypeScript(React, React Native, Next)/NodeJS(ExpressJS)/MongoDB/Java(SpringBoot)/\nLinux/GraphQL/Docker/Python`" />
+      <one-line-block title="Skills" />
+      <skills
+        :skills="`TypeScript(React, React Native, Next, Vue, Pinia), JavaScript(Vue, Nuxt, VueX), Flutter(GetX),\nJava(SpringBoot), SCSS, Jenkins, Linux, Docker, Python, Git, WebRTC, NodeJS(ExpressJS), MongoDB, GraphQL`" />
 
     </div>
-    
+
     <div class="employmentHistory">
-      <one-line-block
-        title="Language"
-        skills="English(Fluent)/Cantonese(Native)/Mandarin(Fluent)"
-      />
-      <skills skills="English(Fluent)/Cantonese(Native)/Mandarin(Fluent)"/>
+      <one-line-block title="Language" skills="English(Fluent)/Cantonese(Native)/Mandarin(Fluent)" />
+      <skills skills="English(Fluent), Cantonese(Native), Mandarin(Fluent)" />
     </div>
 
   </div>
@@ -46,7 +38,7 @@ export default {
     oneLineBlock,
     // JobItem,
     RoleItem
-},
+  },
   computed: {
     jobList() {
       return jobs;
