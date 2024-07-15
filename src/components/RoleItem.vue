@@ -36,6 +36,6 @@ export default {
 
 <style>
 .role-item {
-  margin-top: 8px;
+  margin-top: 4px;
 }
 </style>

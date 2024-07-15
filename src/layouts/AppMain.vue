@@ -11,10 +11,9 @@
     <div class="employmentHistory">
       <one-line-block title="Skills" />
       <skills
-        :skills="`TypeScript(React, React Native, Next, Vue, Pinia), JavaScript(Vue, Nuxt, VueX), Flutter(GetX),\nJava(SpringBoot), SCSS, Jenkins, Linux, Docker, Python, Git, WebRTC, NodeJS(ExpressJS), MongoDB, GraphQL`" />
-
+        :skills="`Specializes in TypeScript(React, React Native, Next, Vue, Pinia), JavaScript(Vue, Nuxt, VueX), Flutter(GetX),\nJava(SpringBoot), SCSS, Jenkins, Linux, Docker, Python, Git, WebRTC, NodeJS(ExpressJS), MongoDB, GraphQL`" />
+      <skills :skills="`Strong understanding of SAAS platforms, RESTful APIs, and cloud infrastructure`" />
     </div>
-
     <div class="employmentHistory">
       <one-line-block title="Language" skills="English(Fluent)/Cantonese(Native)/Mandarin(Fluent)" />
       <skills skills="English(Fluent), Cantonese(Native), Mandarin(Fluent)" />

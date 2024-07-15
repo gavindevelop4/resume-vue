@@ -1,16 +1,17 @@
-export const summary = `Accomplished software developer with four years of experience in frontend and web programming, specializing in TypeScript, JavaScript, PHP, and frameworks like React, Vue, and Flutter. Proven in leading teams, optimizing development processes, and enhancing operational efficiency. Strong expertise in SAAS platforms, RESTful APIs, and cloud infrastructure. Excellent communication, problem-solving, and documentation skills. Currently seeking new opportunities.`
+// export const summary = `Accomplished software developer with four years of experience in frontend and web programming, specializing in TypeScript, JavaScript, PHP, and frameworks like React, Vue, and Flutter. Proven in leading teams, optimizing development processes, and enhancing operational efficiency. Strong expertise in SAAS platforms, RESTful APIs, and cloud infrastructure. Excellent communication, problem-solving, and documentation skills. Currently seeking new opportunities.`
+export const summary = `Experienced software developer with a strong focus on frontend and web programming, specializing in SAAS platforms, RESTful APIs, and cloud infrastructure. Proven track record in delivering successful software implementations, leading and collaborating with diverse teams, optimizing development processes, and enhancing operational efficiency. Seeking meaningful opportunities to contribute to innovative and impactful projects at forward-thinking organizations.`
 
 const roleList = [
   {
-    title: "POS programmer",
+    title: "POS System Analyst",
     company: "Sarku Japan",
     website: "https://www.sarkujapan.com/",
     startDate: "Aug 2023",
     endDate: "Current",
     skills: "TypeScript(React, Redux), JavaScript(React, Redux), Java(Spring Boot), Python, MSSQL",
     description: [
-      "Developed retail automation solutions for over 150 stores, resulting in a 30% reduction in operation time",
-      "Created a portal to enhance operational flexibility by 40% and decrease the turnaround rate during promotions by 50%",
+      "Developed retail automation solutions for 150+ stores, resulting in over 25% reduction in support workload ",
+      "Created an internal portal and digital workflow to enhance operational flexibility and improve turnaround rates for executing promotion campaigns",
       "Developed a RESTful API for the portal, reducing maintenance time by 20%",
     ]
   },
@@ -45,7 +46,7 @@ const roleList = [
     title: "Senior Frontend Developer (Team Lead)",
     company: "Everway Technology Limited",
     website: "https://universeaction.com/",
-    startDate: "May 2021",
+    startDate: "Jun 2022",
     endDate: "Feb 2023",
     skills: "TypeScript(React, React Native, Vue, Pinia), JavaScript(Vue, Nuxt, VueX), Flutter(GetX),\nSCSS, Jenkins, Git, SocketIO, WebRTC, Figma",
     description: [
@@ -74,35 +75,22 @@ const roleList = [
       }
     ]
   },
-  // {
-  //   title: "Frontend Developer",
-  //   company: "Everway Technology Limited",
-  //   website: "https://universeaction.com/",
-  //   startDate: "May 2021",
-  //   endDate: "May 2022",
-  //   skills: "TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/Bootstrap/SCSS/Git",
-  //   description: [
-  //     "Developed 5+ single page applications for SaaS applications of the company",
-  //     "Built 3+ static pages for the company with SSG to improve SEO",
-  //     "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
-  //     "Published mobile applications to Google Play Store and App Store",
-  //   ],
-  //   projects: [
-  //     {
-  //       name: "E-Coins (Crypto Exchange Application)",
-  //       url: "apps.apple.com/us/app/e-coins-by-unal/id1577119952",
-  //     },
-  //     {
-  //       name: "AboSend (SMS Platform Web Application)",
-  //       url: "www.abosend.com",
-  //     },{
-  //       name: "AboTalk (Smart Voice System Web Application): ",
-  //       url: "www.abotalk.com",
-  //     },
-  //   ]
-  // },
   {
-    title: "Web Programmer",
+    title: "Frontend Developer",
+    company: "Everway Technology Limited",
+    website: "https://universeaction.com/",
+    startDate: "May 2021",
+    endDate: "May 2022",
+    // skills: "TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/Bootstrap/SCSS/Git",
+    description: [
+      // "Developed 5+ single page applications for SaaS applications of the company",
+      // "Built 3+ static pages for the company with SSG to improve SEO",
+      // "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
+      // "Published mobile applications to Google Play Store and App Store",
+    ],
+  },
+  {
+    title: "Web Developer",
     company: "OSW Group Limited",
     website: "https://www.osw.com.hk/",
     startDate: "Aug 2020",

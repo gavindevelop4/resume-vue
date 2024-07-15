@@ -61,7 +61,7 @@ export default {
 .top-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   gap: 12px;
 
   .left {
@@ -71,7 +71,7 @@ export default {
 
 .name {
   font-size: 50.5px;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
 }
 
 .summary {
@@ -88,7 +88,7 @@ export default {
   justify-content: flex-start;
   align-items: center;
   font-size: 10.5px;
-  margin-top: 8px;
+  margin-top: 4px;
   margin-bottom: 8px;
 
   .icon {
