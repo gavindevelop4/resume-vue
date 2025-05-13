@@ -29,6 +29,7 @@ html {
   width: 210mm;
   height: 297mm;  
   margin: 0 auto;
+  line-height: 1.5;
 }
 body {
         width: 100%;
@@ -37,7 +38,7 @@ body {
         padding: 0;
         /* background-color: #FAFAFA; */
         /* font: 12pt "Tahoma"; */
-        font-family: "Lato";
+        font-family: "Noto Sans";
         print-color-adjust: exact; 
     }
     * {

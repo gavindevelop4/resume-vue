@@ -1,10 +1,16 @@
 <template>
   <div class="jobTitle">
-    <div class="title">{{ title }}</div>
+    <!-- <div class="title">{{ title }}</div>
     <div>
       <span class="company"><a :href="link">{{ company }}</a>,</span>
       <span class="date"> {{ startDate }} - {{ endDate }}</span>
-    </div>
+    </div> -->
+
+    <span class="title">{{ title }}</span>
+    <span v-if="company != ''">．</span>
+    <span class="company"><a :href="link">{{ company }}</a></span>
+    <span class="date"> {{ startDate }} - {{ endDate }}</span>
+
   </div>
 </template>
 
@@ -39,13 +45,19 @@ export default {
 <style lang="scss">
 .jobTitle {
   font-size: 16px;
-  margin-bottom: 2px;
+  // margin-bottom: 2px;
   // margin-top: 2px;
+  line-height: 1.3;
+
+  span {
+    margin-bottom: 0;
+  }
 
   .title {
-    font-size: 20px;
+    // font-size: 20px;
     color: black;
-    margin-bottom: 2px;
+    // margin-bottom: 2px;
+    // font-weight: 700;
   }
 
   .company {
@@ -63,7 +75,7 @@ export default {
   .date {
     color: #717171;
     margin-left: 5px;
-    // font-size: 12px;
+    font-size: 12px;
   }
 }
 </style>

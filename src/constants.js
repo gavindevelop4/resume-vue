@@ -1,13 +1,46 @@
 // export const summary = `Accomplished software developer with four years of experience in frontend and web programming, specializing in TypeScript, JavaScript, PHP, and frameworks like React, Vue, and Flutter. Proven in leading teams, optimizing development processes, and enhancing operational efficiency. Strong expertise in SAAS platforms, RESTful APIs, and cloud infrastructure. Excellent communication, problem-solving, and documentation skills. Currently seeking new opportunities.`
-export const summary = `Experienced software developer with a strong focus on frontend and web programming, specializing in SAAS platforms, RESTful APIs, and cloud infrastructure. Proven track record in delivering successful software implementations, leading and collaborating with diverse teams, optimizing development processes, and enhancing operational efficiency. Seeking meaningful opportunities to contribute to innovative and impactful projects at forward-thinking organizations.`
+// export const summary = `
+//   Experienced software developer with a strong focus on frontend and web programming, 
+//   specializing in SAAS platforms, RESTful APIs, and cloud infrastructure. 
+//   Proven track record in delivering successful software implementations, 
+//   leading and collaborating with diverse teams, optimizing development processes, 
+//   and enhancing operational efficiency. Seeking meaningful opportunities to 
+//   contribute to innovative and impactful projects at forward-thinking organizations.`
+
+export const summary = `
+  Experienced software developer with a strong focus on frontend, web, 
+  and mobile application development, specializing in SaaS platforms, RESTful APIs, 
+  and cloud infrastructure. Proven track record in delivering successful software 
+  implementations across web and Android platforms, including large-scale deployments 
+  to 10,000+ devices. Strong collaborator and team leader, 
+  focused on optimizing development processes and enhancing operational efficiency. 
+  Seeking meaningful opportunities to contribute to innovative and impactful projects at forward-thinking organizations.
+`
 
 const roleList = [
+  {
+    title: "Mobile Application Developer",
+    company: "WeVend",
+    website: "https://www.wevend.com/",
+    startDate: "Sep 2024",
+    endDate: "Current",
+    skills: "Kotlin(Jetpack Compose), SQLite(Room Database), Java, JavaScript(React Native, Electron, React), TypeScript(React Native, Electron, React)",
+    description: [
+      "Developed and deployed 6+ Android applications that redefined the unattended payment space across car washes, air pumps, and vacuum stations—enabling secure, self-service transactions on 10,000+ terminals",
+      "Built multiple modular Android SDKs to standardize features and enable inter-app communication via Intent, reducing project setup time by 40% and accelerating feature integration across apps",
+      "Integrated manufacturer SDKs over hardware protocols such as Coin Pulse and Serial Connection, enabling seamless interaction with a wide range of embedded devices",
+      "Created a Windows desktop application (.exe using Electron) to interface with Android devices over USB Serial, cutting manual setup time by over 50% for field technicians",
+      "Implemented native TCP server on Android terminals for real-time communication with kiosks—an industry-first in the unattended sector that improved integration and reduced diagnostic time by 25%",
+      "Architected a scalable infrastructure for remote device control and real-time telemetry, powered by cloud-based IoT services, enhancing visibility and reliability across all terminals",
+      "Automated CI/CD pipelines using GitHub Actions to handle APK builds, code quality checks, and deployments, reducing release turnaround time by 30%"
+    ]
+  },
   {
     title: "POS System Analyst",
     company: "Sarku Japan",
     website: "https://www.sarkujapan.com/",
     startDate: "Aug 2023",
-    endDate: "Current",
+    endDate: "Sep 2024",
     skills: "TypeScript(React, Redux), JavaScript(React, Redux), Java(Spring Boot), Python, MSSQL",
     description: [
       "Developed retail automation solutions for 150+ stores, resulting in over 25% reduction in support workload ",
@@ -57,6 +90,14 @@ const roleList = [
       "Worked with backend developers on RESTful API designs to improve performance",
       "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
     ],
+    previousRole: [
+      {
+        title: "Frontend Developer",
+        company: "Everway Technology Limited",
+        startDate: "May 2021",
+        endDate: "May 2022",
+      }
+    ],
     projects: [
       {
         name: "E-Coins (Crypto Exchange Application)",
@@ -75,20 +116,20 @@ const roleList = [
       }
     ]
   },
-  {
-    title: "Frontend Developer",
-    company: "Everway Technology Limited",
-    website: "https://universeaction.com/",
-    startDate: "May 2021",
-    endDate: "May 2022",
-    // skills: "TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/Bootstrap/SCSS/Git",
-    description: [
-      // "Developed 5+ single page applications for SaaS applications of the company",
-      // "Built 3+ static pages for the company with SSG to improve SEO",
-      // "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
-      // "Published mobile applications to Google Play Store and App Store",
-    ],
-  },
+  // {
+  //   title: "Frontend Developer",
+  //   company: "Everway Technology Limited",
+  //   website: "https://universeaction.com/",
+  //   startDate: "May 2021",
+  //   endDate: "May 2022",
+  //   // skills: "TypeScript(Vue, Pinia)/JavaScript(Vue, Nuxt, VueX)/Flutter(GetX)/Bootstrap/SCSS/Git",
+  //   description: [
+  //     // "Developed 5+ single page applications for SaaS applications of the company",
+  //     // "Built 3+ static pages for the company with SSG to improve SEO",
+  //     // "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
+  //     // "Published mobile applications to Google Play Store and App Store",
+  //   ],
+  // },
   {
     title: "Web Developer",
     company: "OSW Group Limited",
@@ -97,14 +138,14 @@ const roleList = [
     endDate: "Apr 2021",
     skills: "PHP, JavaScript(jQuery), SCSS, AWS EC2, Git, Photoshop, Illustrator",
     description: [
-      "Built PHP websites including CMS with HTML, CSS and jQuery",
-      "Configured 2+ AWS EC2 to increase reliability of websites",
-      // "Installed SSL certificates for websites",
-      // "Used git for version control of websites",
-      // "Collaborated with UI/UX designers to optimize design with CSS",
-      "Collabarated with UI/UX designers to build 3D animtaions with CSS and Three.js",
-      // "Developed 3D animations with Three.js",
-      "Built e-commerce websites with WooCommerce, resulting in a 10% profit increase for customers"
+      // "Built PHP websites including CMS with HTML, CSS and jQuery",
+      // "Configured 2+ AWS EC2 to increase reliability of websites",
+      // // "Installed SSL certificates for websites",
+      // // "Used git for version control of websites",
+      // // "Collaborated with UI/UX designers to optimize design with CSS",
+      // "Collabarated with UI/UX designers to build 3D animtaions with CSS and Three.js",
+      // // "Developed 3D animations with Three.js",
+      // "Built e-commerce websites with WooCommerce, resulting in a 10% profit increase for customers"
     ],
     projects: [
       {

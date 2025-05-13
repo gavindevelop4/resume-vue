@@ -20,10 +20,11 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 .oneLineBlock {
-  font-size: 20px;
+  font-size: 16px;
   // margin-bottom: 8px;
   margin-top: 2px;
   margin-bottom: 2px;
+  // font-weight: 700;
   
   .skills {
     font-size: 12px;

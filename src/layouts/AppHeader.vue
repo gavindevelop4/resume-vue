@@ -71,12 +71,15 @@ export default {
 
 .name {
   font-size: 50.5px;
+  font-weight: 700;
   margin-bottom: 0px;
+  color: #00238e;
+  line-height: 1.2;
 }
 
 .summary {
   font-size: 12px;
-  line-height: 1.6;
+  // line-height: 1.6;
 }
 
 .description {
@@ -89,7 +92,7 @@ export default {
   align-items: center;
   font-size: 10.5px;
   margin-top: 4px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 
   .icon {
     width: 16px;

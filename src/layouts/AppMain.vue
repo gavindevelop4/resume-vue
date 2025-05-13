@@ -1,4 +1,4 @@
-<template>
+)<template>
   <div class="main">
     <role-item v-for="(role, index) in roleList" :key="index" :role="role" />
 
@@ -11,7 +11,9 @@
     <div class="employmentHistory">
       <one-line-block title="Skills" />
       <skills
-        :skills="`Specializes in TypeScript(React, React Native, Next, Vue, Pinia), JavaScript(Vue, Nuxt, VueX), Flutter(GetX),\nJava(SpringBoot), SCSS, Jenkins, Linux, Docker, Python, Git, WebRTC, NodeJS(ExpressJS), MongoDB, GraphQL`" />
+        :skills="`
+        Specializes in TypeScript(React, React Native, Next, Vue, Pinia), JavaScript(Vue, Nuxt, VueX), Kotlin(Jetpack Compose, Hilt), Flutter(GetX),\n
+        Java(SpringBoot, Android), SCSS, Jenkins, Linux, Docker, Python, Git, WebRTC, NodeJS(ExpressJS), MongoDB, GraphQL`" />
       <skills :skills="`Strong understanding of SAAS platforms, RESTful APIs, and cloud infrastructure`" />
     </div>
     <div class="employmentHistory">

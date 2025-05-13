@@ -28,5 +28,9 @@ export default {
     margin-block-start: 2px;
     margin-block-end: 2px;
   }
+
+  // li {
+  //   margin-bottom: 2px;
+  // }
 }
 </style>

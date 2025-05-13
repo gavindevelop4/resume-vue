@@ -24,6 +24,7 @@ export default {
   font-family: "Source Code Pro";
   color: #717171;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.2;
+  margin-top: 2px;
 }
 </style>
