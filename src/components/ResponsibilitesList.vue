@@ -27,6 +27,7 @@ export default {
   ul {
     margin-block-start: 2px;
     margin-block-end: 2px;
+    padding-inline-start: 20px;
   }
 
   // li {

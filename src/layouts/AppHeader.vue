@@ -61,11 +61,11 @@ export default {
 .top-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
   gap: 12px;
 
   .left {
-    border-bottom: 1px solid #888888;
+    border-bottom: 1px solid #717171;
   }
 }
 
@@ -79,6 +79,7 @@ export default {
 
 .summary {
   font-size: 12px;
+  color: #717171;
   // line-height: 1.6;
 }
 
@@ -98,6 +99,7 @@ export default {
     width: 16px;
     height: 16px;
     margin-right: 5px;
+    color: #00238e;
   }
 }
 

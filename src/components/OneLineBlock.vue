@@ -21,6 +21,9 @@ export default {
 
 .oneLineBlock {
   font-size: 16px;
+  color: #00238e;
+  font-weight: 700;
+
   // margin-bottom: 8px;
   margin-top: 2px;
   margin-bottom: 2px;

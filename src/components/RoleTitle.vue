@@ -73,7 +73,7 @@ export default {
   }
 
   .date {
-    color: #717171;
+    color: #a8aabc;
     margin-left: 5px;
     font-size: 12px;
   }
