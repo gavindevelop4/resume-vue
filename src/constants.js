@@ -8,11 +8,11 @@
 //   contribute to innovative and impactful projects at forward-thinking organizations.`
 
 export const summary = `
-  Experienced software developer with a strong focus on frontend, web, 
+  Experienced software developer with a strong focus on web  
   and mobile application development, specializing in SaaS platforms, RESTful APIs, 
   and cloud infrastructure. Proven track record in delivering successful software 
-  implementations across web and Android platforms, including large-scale deployments 
-  to 10,000+ devices. Strong collaborator and team leader, 
+  implementations across web and Android platforms, including large-scale solutions designed for deployment to 
+  10,000+ devices. Strong collaborator and team leader, 
   focused on optimizing development processes and enhancing operational efficiency. 
   Seeking meaningful opportunities to contribute to innovative and impactful projects at forward-thinking organizations.
 `
@@ -26,10 +26,10 @@ const roleList = [
     endDate: "Current",
     skills: "Kotlin(Jetpack Compose), SQLite(Room Database), Java, JavaScript(React Native, Electron, React), TypeScript(React Native, Electron, React)",
     description: [
-      "Developed and deployed 6+ Android applications that redefined the unattended payment space across car washes, air pumps, and vacuum stations—enabling secure, self-service transactions on 10,000+ terminals",
-      "Built multiple modular Android SDKs to standardize features and enable inter-app communication via Intent, reducing project setup time by 40% and accelerating feature integration across apps",
+      "Developed and delivered 6+ Android applications for unattended payment systems across car washes, air pumps, and vacuum stations, supporting secure self-service transactions on 10,000+ terminals scheduled for deployment",
+      "Built multiple modular Android SDKs to standardize features and enable inter-app communication via Intents, reducing project setup time by 40% and accelerating feature integration across apps",
       "Integrated manufacturer SDKs over hardware protocols such as Coin Pulse and Serial Connection, enabling seamless interaction with a wide range of embedded devices",
-      "Created a Windows desktop application (.exe using Electron) to interface with Android devices over USB Serial, cutting manual setup time by over 50% for field technicians",
+      "Created a Windows desktop application (.exe using Electron) to interface with Android devices over USB Serial, reducing manual setup time for field technicians by over 50%",
       "Implemented native TCP server on Android terminals for real-time communication with kiosks—an industry-first in the unattended sector that improved integration and reduced diagnostic time by 25%",
       "Architected a scalable infrastructure for remote device control and real-time telemetry, powered by cloud-based IoT services, enhancing visibility and reliability across all terminals",
       "Automated CI/CD pipelines using GitHub Actions to handle APK builds, code quality checks, and deployments, reducing release turnaround time by 30%"
@@ -43,7 +43,7 @@ const roleList = [
     endDate: "Sep 2024",
     skills: "TypeScript(React, Redux), JavaScript(React, Redux), Java(Spring Boot), Python, MSSQL",
     description: [
-      "Developed retail automation solutions for 150+ stores, resulting in over 25% reduction in support workload ",
+      // "Developed retail automation solutions for 150+ stores, resulting in over 25% reduction in support workload ",
       "Created an internal portal and digital workflow to enhance operational flexibility and improve turnaround rates for executing promotion campaigns",
       "Developed a RESTful API for the portal, reducing maintenance time by 20%",
     ]
@@ -84,8 +84,8 @@ const roleList = [
     skills: "TypeScript(React, React Native, Vue, Pinia), JavaScript(Vue, Nuxt, VueX), Flutter(GetX),\nSCSS, Jenkins, Git, SocketIO, WebRTC, Figma",
     description: [
       "Migrated the development process from Scrum to Agile, resulting in a 20% increase in Sprint completion rate",
-      "Conducted code reviews for 5 team members and created detail documentations, enhancing maintainability and reducing development time by 20%",
-      "Deployed release activities for over 5 projects and published over 2 mobile appliactions to Google Play and App Store",
+      "Conducted code reviews for 5 team members and created detailed documentation, enhancing maintainability and reducing development time by 20%",
+      "Deployed release activities for over 5 projects and published 2+ mobile applications to Google Play and App Store",
       "Collaborated with product managers, UI/UX designers, and backend developers to implement and improve features, increasing customer satisfaction by 15% and transforming the application into a SaaS platform to attract more customers",
       "Worked with backend developers on RESTful API designs to improve performance",
       "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",

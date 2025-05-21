@@ -27,7 +27,7 @@
 
         <div class="item">
           <font-awesome-icon icon="fa-solid fa-square-envelope" class="icon" />
-          <div class="description"><a href="gavindevelop4@gmail.com">gavindevelop4@gmail.com</a></div>
+          <div class="description"><a href="mailto:gavindevelop4@gmail.com">gavindevelop4@gmail.com</a></div>
         </div>
 
         <div class="item">
